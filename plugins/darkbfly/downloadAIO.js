@@ -5,7 +5,7 @@
  * 组织名  预留字段，未来发布插件会用到
  * @team darkbfly
  * 版本号
- * @version 1.0.5
+ * @version 1.0.6
  * 说明
  * @description demo
  * 触发正则   在bncr 所有的rule都被视为正则
