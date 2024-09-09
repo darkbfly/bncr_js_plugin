@@ -61,8 +61,13 @@ async function downloadAIO(s, url) {
                 type: "video",
                 path: videoUrl
             });
+        } else if (response.data.medias.length > 0) {
+            await s.reply({
+                type: "video",
+                path: response.data.medias[0].url
+            });
         } else {
-            await s.reply("下载地址未找到");
+            await s.reply("无解析结果！");
         }
     } catch (error) {
         await s.reply("解析异常！");
