@@ -11,6 +11,8 @@
  * 触发正则   在bncr 所有的rule都被视为正则
  * @rule (https://v.douyin.com[.a-zA-Z0-9/]*)
  * @rule (https://v.kuaishou.com[.a-zA-Z0-9/]*)
+ * @rule (https://b23.tv[.a-zA-Z0-9/]*)
+ * @rule (https://weibo.com[.a-zA-Z0-9/]*)
  * // 是否管理员才能触发命令
  * @admin true
  * // 是否发布插件，预留字段，可忽略
@@ -44,7 +46,7 @@ async function downloadAIO(s, url) {
         var videoUrl = null;
         const response = await axios.request(options);
         await s.reply(response.data.title);
-        var videoPriority = ["hd_no_watermark", "no_watermark", "watermark"]
+        var videoPriority = ["hd_no_watermark", "no_watermark", "watermark", "720p", "480p", "360p"]
         for (const element1 of videoPriority) {
             if (videoUrl) break;
             for (const element of response.data.medias) {
