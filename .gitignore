@@ -1,5 +1,6 @@
 # 忽略 BncrData 下的所有内容
 *.json
+!publicFileIndex.json
 @types/
 config/
 db/
