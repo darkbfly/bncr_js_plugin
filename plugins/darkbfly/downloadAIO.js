@@ -25,6 +25,7 @@
  */
 
 const axios = require('axios');
+/* HideStart */
 async function downloadAIO(s, url) {
     const options = {
         method: 'POST',
@@ -66,15 +67,9 @@ async function downloadAIO(s, url) {
         console.error(error);
     }
 }
-
+/* HideEnd */
 module.exports = async s => {
     console.log(s.param(0));
     await s.reply("解析中...");
-    // downloadAIO(s, s.param(0))
-
-    s.reply({
-        type: 'image', // video
-        msg: '图片来啦',
-        path: 'https://pic3.zhimg.com/v2-58d652598269710fa67ec8d1c88d8f03_r.jpg',
-    });
+    downloadAIO(s, s.param(0))
 };
