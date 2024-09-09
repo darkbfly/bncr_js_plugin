@@ -1,0 +1,8 @@
+# 忽略 BncrData 下的所有内容
+*.json
+@types/
+Adapter/
+config/
+db/
+node_modules/
+public/
