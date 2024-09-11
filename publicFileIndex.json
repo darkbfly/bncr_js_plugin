@@ -1,3 +1,25 @@
 {
-  "annotation": "该文件由系统自动生成. 用于插件市场索引,请勿编辑该文件中的任何内容"
+  "annotation": "该文件由系统自动生成. 用于插件市场索引,请勿编辑该文件中的任何内容",
+  "r3a4t9v15IBuob8lbr6tGxiT2QY=": {
+    "type": "github",
+    "name": "myenc",
+    "author": "darkbfly",
+    "team": "darkbfly",
+    "version": "1.0.5",
+    "description": "myenc",
+    "classification": [
+      "自用"
+    ],
+    "filename": "myenc.js",
+    "fileDir": "/plugins/darkbfly/myenc.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "id": "r3a4t9v15IBuob8lbr6tGxiT2QY=",
+    "isChatPlugin": true
+  }
 }
