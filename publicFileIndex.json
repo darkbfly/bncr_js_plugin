@@ -1,5 +1,27 @@
 {
   "annotation": "该文件由系统自动生成. 用于插件市场索引,请勿编辑该文件中的任何内容",
+  "GgsZ1kGy/4euAQZDAQkY5U591Eo=": {
+    "type": "github",
+    "name": "CQmsg",
+    "author": "darkbfly",
+    "team": "darkbfly",
+    "version": "1.0.5",
+    "description": "CQmsg",
+    "classification": [
+      "自用"
+    ],
+    "filename": "CQmsg.js",
+    "fileDir": "/plugins/darkbfly/CQmsg.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "id": "GgsZ1kGy/4euAQZDAQkY5U591Eo=",
+    "isChatPlugin": true
+  },
   "r3a4t9v15IBuob8lbr6tGxiT2QY=": {
     "type": "github",
     "name": "myenc",
