@@ -43,5 +43,27 @@
     "isEncPlugin": false,
     "id": "r3a4t9v15IBuob8lbr6tGxiT2QY=",
     "isChatPlugin": true
+  },
+  "F5KkgnjBDyOXkk7p3MX1LoTQReY=": {
+    "type": "github",
+    "name": "testrule",
+    "author": "darkbfly",
+    "team": "darkbfly",
+    "version": "1.0.5",
+    "description": "testrule",
+    "classification": [
+      "自用"
+    ],
+    "filename": "testrule.js",
+    "fileDir": "/plugins/darkbfly/testrule.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "id": "F5KkgnjBDyOXkk7p3MX1LoTQReY=",
+    "isChatPlugin": true
   }
 }
